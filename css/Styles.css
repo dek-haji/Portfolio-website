@@ -104,7 +104,11 @@ h2 {
 h3 {
     font-size: var(--fs-h3)
 }
-
+/* LOGO */
+.logo1{
+    height: 4rem;
+    border-radius: 20%;
+}
 
 .section__title {
     margin-bottom: .25em;
