@@ -402,9 +402,9 @@ h3 {
 }
 
 .portfolio__item {
-    /* background: var(--clr-accent); */
+     /* background: var(--clr-accent);  */
     overflow: hidden;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .portfolio__img {
@@ -495,3 +495,4 @@ h3 {
    box-shadow: var(--bs);
    border-radius: 20px;
 }
+  
