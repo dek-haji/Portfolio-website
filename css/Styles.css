@@ -15,7 +15,7 @@
 
     --clr-light: #fff;
     --clr-dark: #222020;
-    --clr-accent: #16e0bd;
+    --clr-accent: #CE8929;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -252,6 +252,7 @@ h3 {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 10px;
 }
 
 .section__subtitle--intro {
@@ -272,7 +273,7 @@ h3 {
 
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 260px;
         position: relative;
         z-index: 2;
     }
@@ -401,8 +402,9 @@ h3 {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    /* background: var(--clr-accent); */
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .portfolio__img {
@@ -480,4 +482,16 @@ h3 {
      max-width: 600px;
      margin-left: auto;
      margin-right: auto;
+}
+
+
+/* Portfolio image style */
+.porfolio__img1 {
+   grid-area: img;
+   min-width: 300px;
+   position: relative;
+   z-index: 5;
+   display: block;
+   box-shadow: var(--bs);
+   border-radius: 20px;
 }
