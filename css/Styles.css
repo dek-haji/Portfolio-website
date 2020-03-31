@@ -28,6 +28,20 @@
 h3{
     color: #CE8929;
 }
+h4{
+     color: #CE8929;
+     display: flex;
+     justify-content: center;
+}
+ul{
+     list-style: none;
+     display: flex;
+     height: 100%;
+     
+     justify-content: space-evenly;
+     margin: 0;
+     padding: 0;
+}
 @media (min-width: 800px) {
     :root {
         --fs-h1: 4.5rem;
@@ -498,4 +512,14 @@ h3 {
    box-shadow: var(--bs);
    border-radius: 20px;
 }
-  
+  .porfolio__img2{
+       grid-area: img;
+       min-width: 300px;
+       position: relative;
+       z-index: 5;
+       display: block;
+       box-shadow: var(--bs);
+       border-radius: 20px;
+      transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
+      opacity 250ms linear;
+  }
