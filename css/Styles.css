@@ -25,7 +25,9 @@
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
         0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
-
+h3{
+    color: #CE8929;
+}
 @media (min-width: 800px) {
     :root {
         --fs-h1: 4.5rem;
@@ -404,7 +406,8 @@ h3 {
 .portfolio__item {
      /* background: var(--clr-accent);  */
     overflow: hidden;
-    /* border-radius: 20px; */
+    border-radius: 15px;
+    padding: 3px;
 }
 
 .portfolio__img {
