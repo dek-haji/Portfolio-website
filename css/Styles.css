@@ -15,7 +15,7 @@
 
     --clr-light: #fff;
     --clr-dark: #222020;
-    --clr-accent: #16e0bd;
+    --clr-accent: #CE8929;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -25,7 +25,9 @@
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
         0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
-
+h3{
+    color: #CE8929;
+}
 @media (min-width: 800px) {
     :root {
         --fs-h1: 4.5rem;
@@ -252,6 +254,7 @@ h3 {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 10px;
 }
 
 .section__subtitle--intro {
@@ -272,7 +275,7 @@ h3 {
 
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 260px;
         position: relative;
         z-index: 2;
     }
@@ -401,8 +404,10 @@ h3 {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+     /* background: var(--clr-accent);  */
     overflow: hidden;
+    border-radius: 15px;
+    padding: 3px;
 }
 
 .portfolio__img {
@@ -481,3 +486,16 @@ h3 {
      margin-left: auto;
      margin-right: auto;
 }
+
+
+/* Portfolio image style */
+.porfolio__img1 {
+   grid-area: img;
+   min-width: 300px;
+   position: relative;
+   z-index: 5;
+   display: block;
+   box-shadow: var(--bs);
+   border-radius: 20px;
+}
+  
